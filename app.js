@@ -43,7 +43,7 @@ app.use(function (req, res, next) {
 
 // kết nối mongodb
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://thuuya:Thuyne09.@coffeev1.oci2ij9.mongodb.net/?retryWrites=true&w=majority&appName=coffeev1', {
+mongoose.connect('mongodb+srv://thuuya:Thuyne09.@coffeev1.oci2ij9.mongodb.net/test?retryWrites=true&w=majority&appName=coffeev1', {
   // useNewUrlParser: true,
   // useUnifiedTopology: true
 })
